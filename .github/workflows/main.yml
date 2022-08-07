@@ -54,5 +54,5 @@ jobs:
           uses: Azure/k8s-deploy@v4.3
           with:
             images: gustavolfee/kubenews:${{github.run_number}}
-            manifest: |
+            manifests: |
               k8s/deployment.yaml
